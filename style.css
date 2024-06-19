@@ -1,0 +1,284 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: MyFont1;
+    src: url(RanchinoScript_PERSONAL_USE_ONLY.otf);
+}
+
+#navbar {
+    font-family: MyFont1;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 2%;
+    color: white;
+}
+
+.navbar-nav>.nav-item {
+    font-size: 26px;
+    margin-right: 25px;
+    font-family: MyFont1;
+    color: white;
+    /* font-weight: bold; */
+}
+
+.navbar-nav>.nav-item>a {
+    color: white;
+}
+
+#navbar:hover {
+    color: white;
+    text-shadow: 1px 1px 20px white;
+}
+
+.navbar-nav>.nav-item>a:hover {
+    color: white;
+    text-shadow: 2px 2px 10px white;
+}
+
+.navbar {
+    background-color: black;
+}
+
+@media only screen and (max-width:700px) {
+    .navbar-nav>.nav-item {
+        margin-left: 2% !important;
+    }
+}
+
+.tip{
+    margin-top: 3%;
+    font-family: MyFont1;
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.medium{
+    margin-left: 2%;
+}
+
+.li{
+    list-style: lower-roman;
+    font-size: 25px;
+    font-family: MyFont1;
+    text-transform: capitalize;
+}
+
+.col{
+    margin-left: 2%;
+}
+
+.tips{
+    margin-top: 1%;
+    font-family: MyFont1;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+select{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+option{
+    font-family: MyFont1;
+    font-size: 22px;
+}
+
+#car-details{
+    margin-top: 2%;
+}
+
+.tips-1{
+    margin-top: 1%;
+    font-family: MyFont1;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#car-details {
+    padding: 20px;
+    margin-left: 2%;
+    background-color: #f9f9f9;
+}
+
+.modelname{
+    color: black;
+    font-family: MyFont1;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.det{
+    font-size: 20px;
+    color: #808080;
+}
+
+.image-mid>img {
+    height: 500px;
+}
+
+.image-1>img {
+    width: 240px;
+    height: 200px;
+}
+
+.image-1>.text {
+    margin-left: 5% !important;
+    font-size: 18px;
+    color: #808080;
+}
+
+.image-1>.text>h3 {
+    color: black;
+    font-weight: bold;
+    font-family: MyFont1;
+    font-size: 40px;
+}
+
+.image-2>img {
+    width: 240px;
+    height: 160px;
+    margin-top: 12% !important;
+}
+
+.image-2>.text {
+    margin-left: 5% !important;
+    font-size: 18px;
+    color: #808080;
+}
+
+.image-2>.text>h3 {
+    color: black;
+    font-weight: bold;
+    font-family: MyFont1;
+    font-size: 40px;
+}
+
+
+.image-3>img {
+    width: 240px;
+    height: 200px;
+}
+
+.image-3>.text {
+    margin-left: 5% !important;
+    font-size: 18px;
+    color: #808080;
+}
+
+.image-3>.text>h3 {
+    color: black;
+    font-weight: bold;
+    font-family: MyFont1;
+    font-size: 40px;
+}
+
+.image-4>img {
+    width: 240px;
+    height: 200px;
+    text-align: center;
+}
+
+.image-4>.text {
+    margin-left: 5% !important;
+    font-size: 18px;
+    color: #808080;
+}
+
+.image-4>.text>h3 {
+    color: black;
+    font-weight: bold;
+    font-family: MyFont1;
+    font-size: 40px;
+}
+
+.details {
+    color: #808080;
+}
+
+.top {
+    margin-top: 2% !important;
+}
+
+.image-1 {
+    border-radius: 5px;
+}
+
+/* .button-1{
+    border-radius: 10px;
+    padding: 5px 20px;
+    border: none;
+} */
+
+.col>.h11 {
+    color: black;
+    font-weight: bold;
+    font-family: MyFont1;
+    font-size: 50px;
+    margin-left: 4% !important;
+}
+
+.text-1 {
+    color: #808080;
+    font-size: 20px;
+    /* font-family: MyFont1; */
+    margin-left: 4%;
+}
+
+.heading {
+    font-family: MyFont1;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+    margin-top: 2% !important;
+}
+
+.footer {
+    background-color: black;
+}
+
+.contact {
+    font-family: MyFont1;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top: 3%;
+}
+
+.contact-image>img {
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 1%;
+    text-align: center !important;
+}
+
+.contact-image>img:hover {
+    box-shadow: 0px 0px 10px white;
+}
+
+.img11{
+margin-left: 35% !important;
+}
+
+.top{
+    margin-top: 1% !important;
+}
+
+.tops{
+    font-family: MyFont1;
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5%;
+}

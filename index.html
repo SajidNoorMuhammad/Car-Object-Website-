@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/ab27867c5e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a id="navbar" class="navbar-brand" href="#">Car Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://sajidnoormuhammad.github.io/JavaScript-Objects/" target="_blank">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="nav1" class="nav-link" href="#" onclick="scrollToBottom()">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://sajidnoormuhammad.github.io/Login-Form/" target="_blank">Sign
+                            in <i class="fa-regular fa-circle-user"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="medium">
+        <h1 class="tip">Tips:</h1>
+        <li class="li">First Select Company Name.</li>
+        <li class="li">After Selecting company the model name automatically filled.</li>
+        <li class="li">Select model name the details will show automatically.</li>
+    </div>
+
+    <hr>
+
+    <div class="row">
+        <div class="col">
+            <h1 class="tips">Select Company </h1>
+            <select id="car-company">
+                <option value="">Select Company</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Honda">Honda</option>
+                <option value="Ford">Ford</option>
+                <option value="Suzuki">Suzuki</option>
+                <option value="Kia">Kia</option>
+                <option value="Nissan">Nissan</option>
+                <option value="Hyundai">Hyundai</option>
+            </select>
+        </div>
+        <div class="col">
+            <h1 class="tips">Select Model</h1>
+            <select id="car-model">
+                <option value="">Select Model</option>
+            </select>
+        </div>
+
+        <div id="car-details">
+            <h1 class="tips-1">Details Here:</h1>
+        </div>
+    </div>
+
+
+
+
+    <h1 class="tops">Most Expensive Cars</h1>
+    <div class="row top">
+        <div class="col-3 image-1">
+            <img src="Images/civic.jpg" alt="">
+            <div class="text">
+                <h3>Honda Civic</h3>
+                <span><b>Price:</b> 8,659,000</span> <br>
+                <span>Civic is a series of automobiles manufactured by Honda</span><br>
+                <a class="details" href="https://www.pakwheels.com/new-cars/honda/civic/" target="_blank">Details</a>
+            </div>
+        </div>
+
+        <div class="col-3 image-2">
+            <img src="Images/fortuner.jpg" alt="">
+            <div class="text">
+                <h3>Toyota Fortuner</h3>
+                <span><b>Price:</b> 14,499,000</span> <br>
+                <span>The Toyota Fortuner is a mid-size SUV manufactured by the Japanese</span> <br>
+                <a class="details" href="https://toyota-indus.com/fortuner/" target="_blank">Details</a>
+            </div>
+        </div>
+
+        <div class="col-3 image-3">
+            <img src="Images/tata.webp" alt="">
+            <div class="text">
+                <h3>Tata Punch</h3>
+                <span><b>Price:</b> 3,268,944</span> <br>
+                <span>The Tata Punch is a crossover city car manufactured by Tata Motors Cars</span><br>
+                <a class="details" href="https://cars.tatamotors.com/punch/ice.html" target="_blank">Details</a>
+            </div>
+        </div>
+
+        <div class="col-3 image-4">
+            <img src="Images/maruti suzuki.jpg" alt="">
+            <div class="text">
+                <h3>Maruta Suzuki</h3>
+                <span><b>Price:</b> 4,560,000/</span> <br>
+                <span>Honda is a series of automobiles manufactured by Honda</span><br>
+                <a class="details" href="https://www.marutisuzuki.com/" target="_blank">Details</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="row top">
+        <div class="col-3 image-1">
+            <img src="Images/ford.cms" alt="">
+            <div class="text">
+                <h3>Ford Aspire</h3>
+                <span><b>Price:</b> 8,659,000</span> <br>
+                <span>Civic is a series of automobiles manufactured by Honda</span><br>
+                <a class="details" href="https://www.pakwheels.com/new-cars/honda/civic/" target="_blank">Details</a>
+            </div>
+        </div>
+
+        <div class="col-3 image-2">
+            <img src="Images/kiastonic.webp" alt="">
+            <div class="text">
+                <h3>Kia Stonic</h3>
+                <span><b>Price:</b> 4,767,000</span> <br>
+                <span>The Toyota Fortuner is a mid-size SUV manufactured by the Japanese</span> <br>
+                <a class="details" href="https://toyota-indus.com/fortuner/" target="_blank">Details</a>
+            </div>
+        </div>
+
+        <div class="col-3 image-3">
+            <img src="Images/nissanmurano.jpg" alt="">
+            <div class="text">
+                <h3>Nissan Murano</h3>
+                <span><b>Price:</b> 3,550,000</span> <br>
+                <span>The Tata Punch is a crossover city car manufactured by Tata Motors Cars</span><br>
+                <a class="details" href="https://cars.tatamotors.com/punch/ice.html" target="_blank">Details</a>
+            </div>
+        </div>
+
+        <div class="col-3 image-4">
+            <img src="Images/tuscon.webp" alt="">
+            <div class="text">
+                <h3>Hyundai Tucson</h3>
+                <span><b>Price:</b> 8,659,000</span> <br>
+                <span>Honda is a series of automobiles manufactured by Honda</span><br>
+                <a class="details" href="https://www.marutisuzuki.com/" target="_blank">Details</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <p class="contact">Contact Me</p>
+    
+        <a class="contact-image img11" href="" target="_blank"><img src="Images/discord.png" alt=""></a>
+        <a class="contact-image" href="https://www.facebook.com/SajidNoorMuhammad1" target="_blank"><img
+                src="Images/facebook.png" alt=""></a>
+        <a class="contact-image" href="https://github.com/SajidNoorMuhammad" target="_blank"><img
+                src="Images/github.png" alt=""></a>
+        <a class="contact-image" href="https://www.instagram.com/sk9408899/" target="_blank"><img
+                src="Images/instagram.jpg" alt=""></a>
+        <a class="contact-image" href="" target="_blank"><img src="Images/twitter.png" alt=""></a>
+        <a class="contact-image" href="https://www.linkedin.com/in/sajid-noor-muhammad-97b059204/"
+            target="_blank"><img src="Images/linkedin.png" alt=""></a>
+        <a class="contact-image" href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><img
+                src="Images/gmail.png" alt=""></a>
+      </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
